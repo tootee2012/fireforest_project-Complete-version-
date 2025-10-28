@@ -1,6 +1,7 @@
 # fireforest_project
 
-A new Flutter project.
+ไฟล์ MyProject เป็น backend java
+หาก run ใน emulator ให้ปรับ port ให้เป็น ip ของอินเตอร์เน็ตที่ใช้อยู่ปัจจุบันในไฟล์ service.dart และ firepicture_model.dart
 
 ## Getting Started
 
