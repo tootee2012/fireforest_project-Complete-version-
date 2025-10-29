@@ -105,7 +105,12 @@ class _LoginState extends State<Login> {
                     style: TextStyle(
                       fontSize: 24,
                       fontWeight: FontWeight.bold,
-                      color: Color(0xFFFF5722), // ✅ ส้มแดงให้เข้ากับปุ่ม
+                      color: Color.fromARGB(
+                        255,
+                        0,
+                        0,
+                        0,
+                      ), // ✅ ส้มแดงให้เข้ากับปุ่ม
                       shadows: [
                         Shadow(
                           offset: Offset(1, 1),
@@ -120,7 +125,7 @@ class _LoginState extends State<Login> {
                     'ป้องกันและเฝ้าระวังไฟป่า',
                     style: TextStyle(
                       fontSize: 14,
-                      color: Colors.orange[800],
+                      color: Color.fromARGB(255, 0, 0, 0),
                       fontStyle: FontStyle.italic,
                     ),
                   ),
@@ -416,7 +421,7 @@ class _LoginState extends State<Login> {
                     onPressed: () {},
                     child: Text(
                       "หากยังไม่มีบัญชี",
-                      style: TextStyle(color: Colors.orange[800]),
+                      style: TextStyle(color: Color.fromARGB(255, 0, 0, 0)),
                     ),
                   ),
 

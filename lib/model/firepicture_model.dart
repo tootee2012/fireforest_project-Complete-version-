@@ -16,13 +16,13 @@ class FirePictureModel {
   String? get fullUrl {
     if (pictureURL == null || pictureURL!.isEmpty) return null;
     // แทนด้วย host และ port จริงของคุณ
-    //return "http://25.28.30.17:8080/uploads/full/$pictureURL";
-    return "http://192.168.1.37:8080/uploads/full/$pictureURL";
+    return "http://25.28.30.17:8080/uploads/full/$pictureURL";
+    //return "http://192.168.1.37:8080/uploads/full/$pictureURL";
   }
 
   String? get thumbUrl {
     if (pictureURL == null || pictureURL!.isEmpty) return null;
-    //return "http://25.28.30.17:8080/uploads/thumb/$pictureURL";
-    return "http://192.168.1.37:8080/uploads/thumb/$pictureURL";
+    return "http://25.28.30.17:8080/uploads/thumb/$pictureURL";
+    //return "http://192.168.1.37:8080/uploads/thumb/$pictureURL";
   }
 }

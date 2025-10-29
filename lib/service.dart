@@ -15,8 +15,8 @@ import 'dart:convert';
 import 'dart:async';
 
 class Service {
-  //static const String baseUrl = "http://25.28.30.17:8080";
-  static const String baseUrl = "http://192.168.1.37:8080";
+  static const String baseUrl = "http://25.28.30.17:8080";
+  //static const String baseUrl = "http://192.168.1.37:8080";
   //static const String baseUrl = "http://172.16.1.29:8080";
 
   //login
